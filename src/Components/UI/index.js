@@ -44,4 +44,13 @@ const Balance = styled.div`
   font-size: 32px;
 `;
 
-export { Balance, Box, Button, Details, Icon };
+const ThemeButton = styled.button`
+  position: absolute;
+  top: 4vh;
+  right: 5vw;
+  background-color: inherit
+  border: none;
+  cursor: pointer;
+`;
+
+export { Balance, Box, Button, Details, Icon, ThemeButton };
