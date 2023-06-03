@@ -10,7 +10,7 @@ import {
 
 export const temaClaro = {
   body: fundoClaro,
-  filter: "invert(0)",
+  filter: "",
   inside: conteudoFundoClaro,
   text: textoFundoClaro,
   primary: corPrimaria,
